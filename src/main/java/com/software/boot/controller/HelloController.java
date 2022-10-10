@@ -17,4 +17,8 @@ public class HelloController {
         return "Hello TangJia";
     }
 
+    @RequestMapping("/hi")
+    public String handle02(){
+        return "Hi SpringBoot";
+    }
 }
